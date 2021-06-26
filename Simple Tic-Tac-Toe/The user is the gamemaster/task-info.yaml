@@ -261,19 +261,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/48/stages/256/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Can&#39;t parse the field! Check if you output a field in format like in the example.
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    X O X
-    O X O
-    X X O
-  time: Sat, 26 Jun 2021 01:29:22 UTC
+  message: Congratulations!
+  time: Sat, 26 Jun 2021 22:31:52 UTC
 record: 2
