@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Tic-Tac-Toe.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Tic-Tac-Toe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Tic-Tac-Toe/task/Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Tic-Tac-Toe/task/Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Tic-Tac-Toe/task/Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Tic-Tac-Toe/task/Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Tic-Tac-Toe/task/Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Tic-Tac-Toe/task/Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Area of parallelogram/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Area_of_parallelogram.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Area of parallelogram/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Area_of_parallelogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Area of parallelogram/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Area_of_parallelogram.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Area of parallelogram/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Area_of_parallelogram.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Area of parallelogram/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Area_of_parallelogram.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Area of parallelogram/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Area_of_parallelogram.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Call me awesome/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Call_me_awesome.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Call me awesome/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Call_me_awesome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Call me awesome/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Call_me_awesome.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Call me awesome/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Call_me_awesome.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Call me awesome/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Call_me_awesome.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Call me awesome/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Call_me_awesome.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Theory/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Theory.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Theory/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Theory/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Theory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Theory/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Theory.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Theory/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Theory.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Calling a method/Theory/Simple_Tic-Tac-Toe.Topics-Calling_a_method-Theory.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Simple_Tic-Tac-Toe.util.test.iml" />
+    </modules>
+  </component>
+</project>
