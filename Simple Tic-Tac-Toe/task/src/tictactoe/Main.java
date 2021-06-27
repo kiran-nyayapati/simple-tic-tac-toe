@@ -7,7 +7,7 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.print("Enter cells: ");
+        System.out.print("Enter grid: ");
         String inputGrid = scanner.nextLine();
 
         System.out.println("---------");
