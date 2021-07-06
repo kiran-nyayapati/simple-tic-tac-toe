@@ -9,3 +9,5 @@ content:
 - Two numbers never occur next to each other
 - Triples
 - The minimum value of an array
+- Check if an array is sorted ascending
+- Cyclically shifting elements
