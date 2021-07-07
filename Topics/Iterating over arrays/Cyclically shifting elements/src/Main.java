@@ -15,18 +15,19 @@ class Main {
         for (int i = 0; i < size - 1; i++) {
             System.out.print(integerNumbersArray[i] + " ");
         }
-        /*
-        int lastElementArray = integerNumbersArray[integerNumbersArray.length - 1];
-
-        for (int i = integerNumbersArray.length - 1; i > 0; i--) {
-            integerNumbersArray[i] = integerNumbersArray[i - 1];
-        }
-
-        integerNumbersArray[0] = lastElementArray;
-
-        for (int number : integerNumbersArray) {
-            System.out.print(number + " ");
-        }
-        */
     }
 }
+
+/*
+    int lastElementArray = integerNumbersArray[integerNumbersArray.length - 1];
+
+    for (int i = integerNumbersArray.length - 1; i > 0; i--) {
+        integerNumbersArray[i] = integerNumbersArray[i - 1];
+    }
+
+    integerNumbersArray[0] = lastElementArray;
+
+    for (int number : integerNumbersArray) {
+        System.out.print(number + " ");
+    }
+*/
