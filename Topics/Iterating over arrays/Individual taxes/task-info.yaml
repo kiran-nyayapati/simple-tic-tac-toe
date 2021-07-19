@@ -11,6 +11,9 @@ files:
         }
     }
   learner_created: false
+- name: src/TheLongestAscendingSequence.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/3795#comment
 status: Solved
 feedback:
