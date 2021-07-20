@@ -3,17 +3,16 @@ files:
 - name: src/Main.java
   visible: true
   text: |-
-    import java.util.*;
-
-    public class Main {
-        public static void main(String[] args) {
+    class ArrayOperations {
+        public static int[][][] createCube() {
             // write your code here
+
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/3795#comment
+feedback_link: https://hyperskill.org/learn/step/12442#comment
 status: Solved
 feedback:
   message: <html>Correct solution</html>
-  time: Sat, 17 Jul 2021 19:00:09 UTC
+  time: Tue, 20 Jul 2021 06:43:08 UTC
 record: -1
