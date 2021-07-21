@@ -64,13 +64,13 @@ public class Main {
         return a == b && b == c && b == element;
     }
 
-    public static boolean invalidGrid(){
+    public static boolean invalidGrid() {
         int countO = 0;
         int countX = 0;
         for (char ch: grid) {
             if (ch == 'O') {
                 countO++;
-            } else if (ch == 'X'){
+            } else if (ch == 'X') {
                 countX++;
             }
         }
