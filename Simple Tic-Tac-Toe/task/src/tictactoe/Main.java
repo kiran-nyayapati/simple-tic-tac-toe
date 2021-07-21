@@ -1,13 +1,16 @@
 package tictactoe;
 
 import java.util.Scanner;
+
 public class Main {
     static char[] grid;
     static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.print("Enter grid: ");
         String inputGrid = scanner.next();
         grid = inputGrid.toCharArray();
+
         showGame();
         analyzeGame();
     }
@@ -33,17 +36,13 @@ public class Main {
 
         if (impossible || (threeO && threeX)) {
             System.out.println("Impossible");
-        }
-        else if (threeO) {
+        } else if (threeO) {
             System.out.println("O wins");
-        }
-        else if (threeX) {
+        } else if (threeX) {
             System.out.println("X wins");
-        }
-        else if (aGridEmpty) {
+        } else if (aGridEmpty) {
             System.out.println("Game not finished");
-        }
-        else {
+        } else {
             System.out.println("Draw");
         }
     }
@@ -71,8 +70,7 @@ public class Main {
         for (char ch: grid) {
             if (ch == 'O') {
                 countO++;
-            }
-            else if (ch == 'X'){
+            } else if (ch == 'X'){
                 countX++;
             }
         }
