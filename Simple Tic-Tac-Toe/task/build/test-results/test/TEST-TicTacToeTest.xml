@@ -1,39 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-26T22:31:51" hostname="kiran-nyayapati" time="0.132">
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-21T13:40:40" hostname="kiran-nyayapati" time="0.471">
   <properties/>
-  <testcase name="start" classname="TicTacToeTest" time="0.132"/>
+  <testcase name="start" classname="TicTacToeTest" time="0.471"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Enter cells: > O_OXXO_XX
+Enter grid: > XXXOO__O_
 ---------
-| O _ O |
-| X X O |
-| _ X X |
+| X X X |
+| O O _ |
+| _ O _ |
 ---------
+X wins
 ?[1;31m
 Start test 2?[0m
-Enter cells: > OXO__X_OX
+Enter grid: > XOXOXOXXO
 ---------
+| X O X |
 | O X O |
-| _ _ X |
-| _ O X |
+| X X O |
 ---------
+X wins
 ?[1;31m
 Start test 3?[0m
-Enter cells: > _________
+Enter grid: > XOOOXOXXO
 ---------
-| _ _ _ |
-| _ _ _ |
-| _ _ _ |
+| X O O |
+| O X O |
+| X X O |
 ---------
+O wins
 ?[1;31m
 Start test 4?[0m
-Enter cells: > _O__X___X
+Enter grid: > XOXOOXXXO
+---------
+| X O X |
+| O O X |
+| X X O |
+---------
+Draw
+?[1;31m
+Start test 5?[0m
+Enter grid: > XO_OOX_X_
+---------
+| X O _ |
+| O O X |
+| _ X _ |
+---------
+Game not finished
+?[1;31m
+Start test 6?[0m
+Enter grid: > XO_XO_XOX
+---------
+| X O _ |
+| X O _ |
+| X O X |
+---------
+Impossible
+?[1;31m
+Start test 7?[0m
+Enter grid: > _O_X__X_X
 ---------
 | _ O _ |
-| _ X _ |
-| _ _ X |
+| X _ _ |
+| X _ X |
 ---------
+Impossible
+?[1;31m
+Start test 8?[0m
+Enter grid: > _OOOO_X_X
+---------
+| _ O O |
+| O O _ |
+| X _ X |
+---------
+Impossible
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
