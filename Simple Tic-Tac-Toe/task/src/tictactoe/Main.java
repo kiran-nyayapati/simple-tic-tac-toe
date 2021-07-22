@@ -1,5 +1,6 @@
 package tictactoe;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -7,13 +8,26 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.print("Enter cells: ");
-        String input = scanner.next();
-        grid = input.toCharArray();
+        grid = new char[9];
+        Arrays.fill(grid,'_');
 
         showGame();
-        makeMove('X');
-        showGame();
+
+        int turn = 0;
+        boolean gameInProgress;
+
+        do {
+            if (turn % 2 == 0) {
+                makeMove('X');
+            } else {
+                makeMove('O');
+            }
+
+            showGame();
+
+            gameInProgress = analyzeGame();
+            turn++;
+        } while (gameInProgress);
     }
 
     public static void showGame() {
@@ -24,33 +38,31 @@ public class Main {
         System.out.println("---------");
     }
 
-    public static void analyzeGame() {
-        boolean impossible;
+    public static boolean analyzeGame() {
         boolean threeX;
         boolean threeO;
         boolean aGridEmpty;
 
-        impossible = invalidGrid();
         threeO = isThree('O');
         threeX = isThree('X');
         aGridEmpty = isAGridEmpty();
 
-        if (impossible || (threeO && threeX)) {
-            System.out.println("Impossible");
-        } else if (threeO) {
+        if (threeO) {
             System.out.println("O wins");
+            return false;
         } else if (threeX) {
             System.out.println("X wins");
+            return false;
         } else if (aGridEmpty) {
-            System.out.println("Game not finished");
+            return true;
         } else {
             System.out.println("Draw");
+            return false;
         }
     }
 
     public static boolean isThree(char element) {
-        if (isThreeInARow(grid[0], grid[4], grid[8], element) ||
-                isThreeInARow(grid[6], grid[4],grid[2], element)) {
+        if (isThreeInARow(grid[0], grid[4], grid[8], element) || isThreeInARow(grid[6], grid[4], grid[2], element)) {
             return true;
         }
 
@@ -66,22 +78,6 @@ public class Main {
         return false;
     }
 
-    public static boolean invalidGrid() {
-        int countO = 0;
-        int countX = 0;
-
-        for (char ch: grid) {
-            if (ch == 'O') {
-                countO++;
-            } else if (ch == 'X'){
-                countX++;
-            }
-        }
-
-        if (Math.abs(countO - countX) > 1) return true;
-        return false;
-    }
-
     public static boolean isAGridEmpty() {
         for (char ch: grid) {
             if (ch == '_') return true;
@@ -90,17 +86,19 @@ public class Main {
     }
 
     public static void makeMove (char element) {
-        System.out.println("Enter the coordinates:");
+        System.out.println("Enter the coordinates: ");
         boolean loopAgain;
 
         do {
             loopAgain = false;
             int a = 0;
             char firstInput = scanner.next().charAt(0);
+            char secondInput;
 
             if (Character.isDigit(firstInput)) {
                 a = firstInput - '0';
             } else {
+                secondInput = scanner.next().charAt(0);
                 System.out.println("You should enter numbers!");
                 loopAgain = true;
             }
@@ -108,8 +106,7 @@ public class Main {
             int b = 0;
 
             if (!loopAgain) {
-                char secondInput = scanner.next().charAt(0);
-
+                secondInput = scanner.next().charAt(0);
                 if (Character.isDigit(secondInput)) {
                     b = secondInput - '0';
                 } else {
@@ -124,7 +121,7 @@ public class Main {
                 if (a < 1 || a > 3 || b < 1 || b > 3) {
                     System.out.println("Coordinates should be from 1 to 3!");
                     loopAgain = true;
-                } else if (grid[point]!='_') {
+                } else if (grid[point] != '_') {
                     System.out.println("This cell is occupied! Choose another one!");
                     loopAgain = true;
                 } else {
