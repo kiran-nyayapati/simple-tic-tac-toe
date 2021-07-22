@@ -458,5 +458,12 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/48/stages/259/implement#comment
-status: Unchecked
-record: -1
+status: Failed
+feedback:
+  message: "Exception in test #1\n\njava.lang.ArrayIndexOutOfBoundsException: Index\
+    \ 1 out of bounds for length 1\n\tat tictactoe.Main.showGame(Main.java:21)\n\t\
+    at tictactoe.Main.main(Main.java:14)\n\nPlease find below the output of your program\
+    \ during this failed test.\nNote that the &#39;&gt;&#39; character indicates the\
+    \ beginning of the input line.\n\n---\n\nEnter cells: &gt; 3 4\n---------"
+  time: Thu, 22 Jul 2021 10:18:21 UTC
+record: 5
