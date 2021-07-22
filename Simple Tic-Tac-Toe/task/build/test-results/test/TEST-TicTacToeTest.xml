@@ -1,74 +1,469 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-07-22T10:18:21" hostname="kiran-nyayapati" time="0.148">
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-22T10:31:22" hostname="kiran-nyayapati" time="0.534">
   <properties/>
-  <testcase name="start" classname="TicTacToeTest" time="0.148">
-    <failure message="java.lang.AssertionError: Exception in test #1&#10;&#10;java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1&#10;&#9;at tictactoe.Main.showGame(Main.java:21)&#10;&#9;at tictactoe.Main.main(Main.java:14)&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Enter cells: &gt; 3 4&#10;---------" type="java.lang.AssertionError">java.lang.AssertionError: Exception in test #1
-
-java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-	at tictactoe.Main.showGame(Main.java:21)
-	at tictactoe.Main.main(Main.java:14)
-
-Please find below the output of your program during this failed test.
-Note that the '&gt;' character indicates the beginning of the input line.
-
----
-
-Enter cells: &gt; 3 4
----------
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:141)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</failure>
-  </testcase>
+  <testcase name="start" classname="TicTacToeTest" time="0.534"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-Enter cells: > 3 4
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 1 1
+---------
+| X X X |
+| O O _ |
+| O X _ |
+---------
+?[1;31m
+Start test 2?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 2
+This cell is occupied! Choose another one!
+> 1 3
+This cell is occupied! Choose another one!
+> 2 1
+This cell is occupied! Choose another one!
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+---------
+| _ X X |
+| O O X |
+| O X _ |
+---------
+?[1;31m
+Start test 3?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 1 3
+This cell is occupied! Choose another one!
+> 2 1
+This cell is occupied! Choose another one!
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+---------
+| _ X X |
+| O O X |
+| O X _ |
+---------
+?[1;31m
+Start test 4?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 4 3
+Coordinates should be from 1 to 3!
+> 2 1
+This cell is occupied! Choose another one!
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+---------
+| _ X X |
+| O O X |
+| O X _ |
+---------
+?[1;31m
+Start test 5?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+---------
+| _ X X |
+| O O X |
+| O X _ |
+---------
+?[1;31m
+Start test 6?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 4 5
+Coordinates should be from 1 to 3!
+> 2 3
+---------
+| _ X X |
+| O O X |
+| O X _ |
+---------
+?[1;31m
+Start test 7?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 3 1
+This cell is occupied! Choose another one!
+> 3 2
+This cell is occupied! Choose another one!
+> 3 3
+---------
+| _ X X |
+| O O _ |
+| O X X |
+---------
+?[1;31m
+Start test 8?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 4 7
+Coordinates should be from 1 to 3!
+> 3 2
+This cell is occupied! Choose another one!
+> 3 3
+---------
+| _ X X |
+| O O _ |
+| O X X |
+---------
+?[1;31m
+Start test 9?[0m
+Enter cells: > _XXOO_OX_
+---------
+| _ X X |
+| O O _ |
+| O X _ |
+---------
+Enter the coordinates:
+> 3 3
+---------
+| _ X X |
+| O O _ |
+| O X X |
+---------
+?[1;31m
+Start test 10?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 9
+Coordinates should be from 1 to 3!
+> 1 1
+---------
+| X _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 11?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 1 2
+---------
+| _ X _ |
+| _ _ _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 12?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 11
+Coordinates should be from 1 to 3!
+> 1 3
+---------
+| _ _ X |
+| _ _ _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 13?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 2 1
+---------
+| _ _ _ |
+| X _ _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 14?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 13
+Coordinates should be from 1 to 3!
+> 2 2
+---------
+| _ _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 15?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 2 3
+---------
+| _ _ _ |
+| _ _ X |
+| _ _ _ |
+---------
+?[1;31m
+Start test 16?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 15
+Coordinates should be from 1 to 3!
+> 3 1
+---------
+| _ _ _ |
+| _ _ _ |
+| X _ _ |
+---------
+?[1;31m
+Start test 17?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 3 2
+---------
+| _ _ _ |
+| _ _ _ |
+| _ X _ |
+---------
+?[1;31m
+Start test 18?[0m
+Enter cells: > _________
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 17
+Coordinates should be from 1 to 3!
+> 3 3
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ X |
+---------
+?[1;31m
+Start test 19?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 1 1
+This cell is occupied! Choose another one!
+> 1 2
+---------
+| X X X |
+| _ O _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 20?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 19
+Coordinates should be from 1 to 3!
+> 1 2
+---------
+| X X X |
+| _ O _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 21?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 1 3
+This cell is occupied! Choose another one!
+> 2 1
+---------
+| X _ X |
+| X O _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 22?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 21
+Coordinates should be from 1 to 3!
+> 2 1
+---------
+| X _ X |
+| X O _ |
+| _ _ _ |
+---------
+?[1;31m
+Start test 23?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+---------
+| X _ X |
+| _ O X |
+| _ _ _ |
+---------
+?[1;31m
+Start test 24?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 23
+Coordinates should be from 1 to 3!
+> 2 3
+---------
+| X _ X |
+| _ O X |
+| _ _ _ |
+---------
+?[1;31m
+Start test 25?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 3 1
+---------
+| X _ X |
+| _ O _ |
+| X _ _ |
+---------
+?[1;31m
+Start test 26?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 4 25
+Coordinates should be from 1 to 3!
+> 3 2
+---------
+| X _ X |
+| _ O _ |
+| _ X _ |
+---------
+?[1;31m
+Start test 27?[0m
+Enter cells: > X_X_O____
+---------
+| X _ X |
+| _ O _ |
+| _ _ _ |
+---------
+Enter the coordinates:
+> 3 3
+---------
+| X _ X |
+| _ O _ |
+| _ _ X |
 ---------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
